@@ -26,5 +26,6 @@
   define("OPEN_DATABASE",   "openclinic");
   define("OPEN_USERNAME",   "root");
   define("OPEN_PWD",        "");
+  define("OPEN_PORT",       "3306");
   define("OPEN_PERSISTENT", true);
 ?>

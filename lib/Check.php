@@ -218,7 +218,7 @@ class Check
     }
     $value = trim(htmlspecialchars(
       $value,
-      ENT_COMPAT | ENT_XHTML,
+      (ENT_COMPAT | ENT_XHTML),
       "ISO-8859-1"
     ));
 
